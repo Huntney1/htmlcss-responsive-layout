@@ -425,6 +425,7 @@ body {
     background-color: rgba(151, 146, 228, 255);
     font-size: 1em;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 /** 5° sezione About Us */
@@ -446,9 +447,7 @@ body {
 }
 
 .title-p-about h1 {
-quotation marks
-
-    color: rgba(151, 146, 228, 255);
+    quotation marks color: rgba(151, 146, 228, 255);
     padding: 10% 0% 10%;
     font-size: 3em;
 }
@@ -476,12 +475,12 @@ quotation marks
 }
 
 .img-testim-about span {
-    font-size: 8rem;
+    font-size: 7rem;
     line-height: 1.42em;
     position: absolute;
-    right:40%;
+    right: 40%;
     top: 0%;
-  
+
 }
 
 .img-testim-about p {
@@ -490,20 +489,34 @@ quotation marks
     margin-left: 10%;
 }
 
-.button-about{
+.button-about {
     padding: 10% 10% 20%;
 }
 
-.button-about button{
+.button-about button {
     padding: 6% 10% 6%;
     border-radius: 2em;
     border: none;
     color: white;
     background-color: rgba(151, 146, 228, 255);
     font-size: 1.5em;
-    
+    cursor: pointer;
 }
 
 .button-about i {
     font-size: 1em;
 }
+
+/** footer */
+.container-started {
+
+}
+
+.row-started {
+
+}
+
+.col-started {
+
+}
+
