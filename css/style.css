@@ -338,6 +338,7 @@ body {
 .titlefoot-text-testim i {
     color: white;
     font-size: x-large;
+    width: 2rem;
 }
 
 .name-testim {
@@ -359,7 +360,16 @@ body {
 
 .row-benefit {
     width: 100%;
+    padding-bottom: 5%;
+}
 
+.col-benefit {
+    /* width: 80%;
+    text-align: left; */
+    background-color: white;
+    border-radius: 1.5em;
+    margin: 0% 10% 10%;
+    padding: 10% 10% 0%;
 }
 
 .title-benefit {
@@ -374,14 +384,7 @@ body {
 
 }
 
-.col-benefit {
-    /* width: 80%;
-    text-align: left; */
-    background-color: white;
-    border-radius: 1.5em;
-    margin: 0% 10% 10%;
-    padding: 10% 10% 0%;
-}
+
 
 .num-title {
     color: rgba(151, 146, 228, 255);
@@ -422,4 +425,85 @@ body {
     background-color: rgba(151, 146, 228, 255);
     font-size: 1em;
     font-weight: bolder;
+}
+
+/** 5° sezione About Us */
+.container-about {
+    width: 100%;
+}
+
+.row-about {
+    width: 100%;
+}
+
+.col-about {
+    width: 100%;
+    text-align: left;
+}
+
+.title-p-about {
+    margin: 10% 10% 0%;
+}
+
+.title-p-about h1 {
+quotation marks
+
+    color: rgba(151, 146, 228, 255);
+    padding: 10% 0% 10%;
+    font-size: 3em;
+}
+
+.title-p-about p {
+    line-height: 2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-bottom: 10%;
+    font-size: 1.155rem;
+}
+
+.img-testim-about {
+    text-align: left;
+    position: relative;
+    color: rgba(151, 146, 228, 255);
+}
+
+.img-testim-about img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 8% 10% 10%;
+}
+
+.img-testim-about span {
+    font-size: 8rem;
+    line-height: 1.42em;
+    position: absolute;
+    right:40%;
+    top: 0%;
+  
+}
+
+.img-testim-about p {
+    width: 90%;
+    font-size: 2.2rem;
+    margin-left: 10%;
+}
+
+.button-about{
+    padding: 10% 10% 20%;
+}
+
+.button-about button{
+    padding: 5% 10% 5%;
+    border-radius: 2em;
+    border: none;
+    color: white;
+    background-color: rgba(151, 146, 228, 255);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.button-about i {
+    font-size: 1em;
 }
