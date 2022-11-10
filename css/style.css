@@ -79,7 +79,7 @@ body {
 
 .row-sec-card {
     width: 100%;
-   text-align: center;
+    text-align: center;
     /* border: 1px solid black; */
 
 }
@@ -97,10 +97,13 @@ body {
 .title-col-card {
     color: rgba(0, 132, 253, 255);
     line-height: 3rem;
-    margin-top: 4%;
     text-align: center;
 }
 
+
+.title-col-card h1 {
+    margin-top: 5%;
+}
 
 .p-col-card {
     color: rgba(90, 110, 127, 255);
@@ -110,7 +113,6 @@ body {
     align-items: center;
     position: relative;
     top: 1em;
-
 
 }
 
@@ -148,7 +150,7 @@ body {
 
 .img-col-card {
     width: 100%;
-    
+
 }
 
 
@@ -158,19 +160,31 @@ body {
 }
 
 /* 2° card */
-.title-sm-sec{
-
+.title-sm-sec {
+    color: rgba(0, 132, 253, 255);
 }
 
-.p-col-sm-sec{
-
+.title-sm-sec i {
+    font-size: 5rem;
+    margin-top: 10%;
 }
 
+.title-sm-sec h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
+.p-col-sm-sec {
+    
+    padding-bottom: 2.5rem;
+    
+}
 
-
-
-
+.p-col-sm-sec p{
+    text-align: center;
+    line-height: 1.5;
+    color: rgba(90, 110, 127, 255);
+}
 
 
 
