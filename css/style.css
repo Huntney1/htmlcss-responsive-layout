@@ -64,8 +64,8 @@ body {
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;branding
-    text-decoration: none;
+    padding: 12px 16px;
+    branding text-decoration: none;
     display: block;
 }
 
@@ -130,6 +130,7 @@ body {
     color: rgba(90, 110, 127, 255);
     margin-bottom: 2.5em;
     margin-top: 1em;
+    
 }
 
 .button-col-card button {
@@ -137,9 +138,11 @@ body {
     background-color: rgba(0, 132, 253, 255);
     color: white;
     border-radius: 3em;
+    border: none;
     padding: 3% 28%;
     text-align: center;
     position: relative;
+    cursor: pointer;
 }
 
 .button-col-card i {
@@ -175,17 +178,99 @@ body {
 }
 
 .p-col-sm-sec {
-    
+
     padding-bottom: 2.5rem;
-    
+
 }
 
-.p-col-sm-sec p{
+.p-col-sm-sec p {
     text-align: center;
     line-height: 2em;
     color: rgba(90, 110, 127, 255);
 }
 
 /** 2° Sezione Strategic */
+
+.container-Strategic {
+    width: 100%;
+}
+
+.row-Strategic {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 3rem;
+background-color: rgba(151, 146, 228, 255);
+
+}
+
+/* 1° colonna */
+.col-stategic {
+    width: 100%;
+    
+}
+
+/* .img-strategic1 {
+
+}*/
+
+.img-strategic1 img {
+    width: 60%;
+    margin: 12% 20% 12%;
+   
+}
+
+.title-text {
+    color: white;
+    text-align: left;
+    margin: 0% 10% 0%;
+     line-height: 1.5rem;
+}
+
+.title-text h1{
+    text-align: center;
+margin: 0% 0% 10%;
+}
+
+.title-text p{
+padding: 2rem;
+}
+
+/* 2° colonna */
+.col-stategic-app {
+    width: 80%;
+    margin: 0% 10% 0%;
+    background-color: white;
+    border-radius: 3.5em;
+    
+
+}
+
+.title-text-app {
+    color: black;
+    margin: 0% 10% 0%;
+     line-height: 1.5rem;
+}
+
+.title-text-app h1{
+    text-align: center;
+margin: 0% 0% 10%;
+}
+
+.title-text-app p{
+    text-align: left;
+padding: 2rem;
+}
+
+.title-text-app i{
+    width: 3rem;
+    height: 3rem;
+    margin: 0% 35% 10%;
+    padding: 3%;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(151, 146, 228, 255);
+    border-radius: 100%;
+   cursor: pointer;
+}
 
 
