@@ -312,7 +312,7 @@ body {
     border-radius: 3em;
 }
 
-
+/*! NON MODIFICARE MAI (modificare solo il margin) */
 .img-testim img {
     object-fit: cover;
     border-radius: 50%;
@@ -346,6 +346,80 @@ body {
     word-spacing: 1px;
 }
 
-.name-testim{
-font-size: 1.3rem;
+.name-testim {
+    font-size: 1.3rem;
+}
+
+/** 4° sezione benefits */
+.container-benefit {
+    width: 100%;
+    background-color: rgba(151, 146, 228, 255);
+
+}
+
+.row-benefit {
+    width: 100%;
+
+}
+
+.title-benefit {
+    width: 100%;
+    text-align: center;
+    padding: 15% 0% 15%;
+}
+
+.title-benefit h1 {
+    color: white;
+    font-size: 2.5em;
+
+}
+
+.col-benefit {
+    /* width: 80%;
+    text-align: left; */
+    background-color: white;
+    border-radius: 1.5em;
+    margin: 0% 10% 10%;
+    padding: 10% 10% 0%;
+}
+
+.num-title {
+    color: rgba(151, 146, 228, 255);
+
+}
+
+.num-title p {
+    font-size: 4rem;
+}
+
+.num-title h3 {
+    margin: 10% 0% 10%;
+    font-size: 2rem;
+}
+
+.p-benefit {
+    color: rgba(90, 110, 127, 255);
+
+}
+
+.p-benefit p {
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    padding-bottom: 10%;
+}
+
+.button-benefit {
+    padding: 2% 0% 15%;
+
+}
+
+.button-benefit button {
+    padding: 6% 25% 6%;
+    border-radius: 2em;
+    border: none;
+    color: white;
+    background-color: rgba(151, 146, 228, 255);
+    font-size: 1em;
+    font-weight: bolder;
 }
