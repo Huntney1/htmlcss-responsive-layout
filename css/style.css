@@ -130,7 +130,7 @@ body {
     color: rgba(90, 110, 127, 255);
     margin-bottom: 2.5em;
     margin-top: 1em;
-    
+
 }
 
 .button-col-card button {
@@ -199,14 +199,14 @@ body {
     width: 100%;
     display: inline-block;
     padding-bottom: 3rem;
-background-color: rgba(151, 146, 228, 255);
+    background-color: rgba(151, 146, 228, 255);
 
 }
 
 /* 1° colonna */
 .col-stategic {
     width: 100%;
-    
+
 }
 
 /* .img-strategic1 {
@@ -216,23 +216,23 @@ background-color: rgba(151, 146, 228, 255);
 .img-strategic1 img {
     width: 60%;
     margin: 12% 20% 12%;
-   
+
 }
 
 .title-text {
     color: white;
     text-align: left;
     margin: 0% 10% 0%;
-     line-height: 1.5rem;
+    line-height: 1.5rem;
 }
 
-.title-text h1{
+.title-text h1 {
     text-align: center;
-margin: 0% 0% 10%;
+    margin: 0% 0% 10%;
 }
 
-.title-text p{
-padding: 2rem;
+.title-text p {
+    padding: 2rem;
 }
 
 /* 2° colonna */
@@ -241,36 +241,111 @@ padding: 2rem;
     margin: 0% 10% 0%;
     background-color: white;
     border-radius: 3.5em;
-    
+
 
 }
 
 .title-text-app {
     color: black;
     margin: 0% 10% 0%;
-     line-height: 1.5rem;
+    line-height: 1.5rem;
 }
 
-.title-text-app h1{
+.title-text-app h1 {
     text-align: center;
-margin: 0% 0% 10%;
+    margin: 0% 0% 10%;
 }
 
-.title-text-app p{
+.title-text-app p {
     text-align: left;
-padding: 2rem;
+    padding: 2rem;
 }
 
-.title-text-app i{
+.title-text-app i {
     width: 3rem;
     height: 3rem;
-    margin: 0% 35% 10%;
+    margin: 0% 41% 10%;
     padding: 3%;
     font-size: 2rem;
     text-align: center;
     background-color: rgba(151, 146, 228, 255);
     border-radius: 100%;
-   cursor: pointer;
+    cursor: pointer;
+}
+
+/** 3° sezione testimonials */
+.container-testim {
+    width: 100%;
+
+}
+
+.row-testim {
+    width: 100%;
+    display: inline-block;
+}
+
+.text-top {
+    width: 100%;
+    text-align: center;
+    margin: 3em 0em 3em;
+}
+
+/* .text-top h4 {} */
+
+.text-top h1 {
+    font-size: 3rem;
+    margin: 0em 0em 0.50em;
+    color: rgba(151, 146, 228, 255);
+}
+
+.text-top p {
+    width: 60%;
+    margin-left: 5rem;
+    line-height: 2rem;
+
+}
+
+.col-testim {
+    width: 80%;
+    margin: 0% 10% 10%;
+    background-color: rgba(151, 146, 228, 255);
+    border-radius: 3em;
 }
 
 
+.img-testim img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10% 20% 10%;
+}
+
+.titlefoot-text-testim {
+    width: 80%;
+    text-align: center;
+    margin: 0% 10% 0%;
+    color: white;
+}
+
+.titlefoot-text-testim p {
+    line-height: 1.8rem;
+    font-size: large;
+    letter-spacing: 2px;
+
+}
+
+.titlefoot-text-testim i {
+    color: white;
+    font-size: x-large;
+}
+
+.name-testim {
+    padding: 8% 0% 13%;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.name-testim{
+font-size: 1.3rem;
+}
