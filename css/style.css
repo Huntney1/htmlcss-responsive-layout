@@ -509,14 +509,42 @@ body {
 
 /** footer */
 .container-started {
-
+    width: 100%;
 }
 
 .row-started {
-
+    width: 100%;
+    background-color: rgba(151, 146, 228, 255);
 }
 
 .col-started {
-
+    width: 100%;
+    text-align: center;
+    padding: 10% 0% 0%;
 }
 
+.text-started {}
+
+.text-started h3 {
+    color: rgba(205,204,242,255);
+}
+
+.text-started h2 {}
+
+.text-started h1 {
+    color: rgba(253,193,95,255);
+}
+
+.text-started p {}
+
+.button-started {}
+
+.button-started button {}
+
+
+
+
+
+
+
+/* rgba(128,124,188,255) */
